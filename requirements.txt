@@ -1,0 +1,27 @@
+
+#python3.9 -m venv myenv                  
+#source myenv/bin/activate
+#torch torchvision torchtext
+
+flask-cors
+tiktoken
+unstructured
+Flask==2.0.1
+llama-index
+llama-index-vector-stores-qdrant
+llama-index-llms-ollama
+llama-index-embeddings-ollama
+torch sentence-transformers      
+Werkzeug==2.2.2
+qdrant-client
+fastembed
+
+
+PUT /collections/{collection_name}
+{
+    "vectors": {
+      "size": 300,
+      "distance": "Cosine"
+    }
+}
+
