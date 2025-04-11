@@ -28,3 +28,4 @@ pythong api.py
     "question": "List out OWASP top 10 ",
     "user_id": "docusum"
     }'
+For more details, visit https://ekluvtech.com/2025/03/16/document-summarization/
