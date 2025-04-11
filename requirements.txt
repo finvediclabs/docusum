@@ -16,12 +16,16 @@ Werkzeug==2.2.2
 qdrant-client
 fastembed
 
+#If you encounter issues with requirements.txt, run the following commands to install dependencies.
 
-PUT /collections/{collection_name}
-{
-    "vectors": {
-      "size": 300,
-      "distance": "Cosine"
-    }
-}
-
+#pip install flask-cors
+#pip install tiktoken
+#pip install unstructured
+#pip install Flask==2.0.1
+#pip install llama-index
+#pip install llama-index-vector-stores-qdrant
+#pip install llama-index-llms-ollama
+#pip install llama-index-embeddings-ollama
+#pip install torch sentence-transformers
+#pip install qdrant-client
+#pip install Werkzeug==2.2.2
